@@ -15,6 +15,7 @@
 		1FC241EC1C9FF0ED002192F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC241EA1C9FF0ED002192F6 /* LaunchScreen.storyboard */; };
 		1FC241F71C9FF0ED002192F6 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC241F61C9FF0ED002192F6 /* TestTests.m */; };
 		1FC242021C9FF0ED002192F6 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC242011C9FF0ED002192F6 /* TestUITests.m */; };
+		1FC242141C9FF2DA002192F6 /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC242131C9FF2DA002192F6 /* myTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1FC241FD1C9FF0ED002192F6 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC242011C9FF0ED002192F6 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		1FC242031C9FF0ED002192F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC242121C9FF2DA002192F6 /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		1FC242131C9FF2DA002192F6 /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1FC241E01C9FF0ED002192F6 /* AppDelegate.m */,
 				1FC241E21C9FF0ED002192F6 /* ViewController.h */,
 				1FC241E31C9FF0ED002192F6 /* ViewController.m */,
+				1FC242121C9FF2DA002192F6 /* myTableViewCell.h */,
+				1FC242131C9FF2DA002192F6 /* myTableViewCell.m */,
 				1FC241E51C9FF0ED002192F6 /* Main.storyboard */,
 				1FC241E81C9FF0ED002192F6 /* Assets.xcassets */,
 				1FC241EA1C9FF0ED002192F6 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC241E41C9FF0ED002192F6 /* ViewController.m in Sources */,
+				1FC242141C9FF2DA002192F6 /* myTableViewCell.m in Sources */,
 				1FC241E11C9FF0ED002192F6 /* AppDelegate.m in Sources */,
 				1FC241DE1C9FF0ED002192F6 /* main.m in Sources */,
 			);

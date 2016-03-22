@@ -11,7 +11,31 @@
 @implementation myTableViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+
+    [_rootButton addTarget:self action:@selector(click) forControlEvents:(UIControlEventTouchUpInside)];
+    
+}
+
+-(void)click {
+    
+    if (self.buttonClick != nil) {
+        
+        self.buttonClick(self.cellPath);
+    }
+}
+
+- (void)setChecked:(BOOL)checked {
+   
+    if (checked)
+    {
+        _rootButton.backgroundColor = [UIColor redColor];
+        
+    }
+    else
+    {
+         _rootButton.backgroundColor = [UIColor grayColor];
+    }
+    m_checked = checked;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

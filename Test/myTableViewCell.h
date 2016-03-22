@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface myTableViewCell : UITableViewCell
+@interface myTableViewCell : UITableViewCell {
+    
+     BOOL			m_checked;
+}
+
+@property(nonatomic)NSInteger cellPath;
+
+@property(nonatomic,strong)void (^buttonClick)(NSInteger );
+
+- (void)setChecked:(BOOL)checked;
+
+@property (weak, nonatomic) IBOutlet UIButton *rootButton;
 
 @end
